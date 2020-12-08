@@ -1,0 +1,131 @@
+
+.header {
+    height: 200px;
+    text-align: center;
+  }
+  h3 {
+    padding-top: 60px;
+    padding-bottom:60px;
+    text-align: center;
+    color: rgb(87, 84, 84);
+  }
+.p{
+    font-family: sans-serif;
+    color: green;
+    line-height: 10pt;
+}
+
+body {
+    font-family: sans-serif;
+    color: rgb(0, 0, 0)
+  }
+
+.container input[type="text"]{
+    width: 30%;
+    height: auto;
+    font-family:sans-serif;
+    border: 1.5px solid rgb(102, 101, 101);
+    background-color: seashell;
+    line-height: normal;
+    padding: .5em .3em;
+    border-radius:0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+  .wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+  }
+  .container {
+    float: center;
+    text-align: center;
+  }
+  .two{
+    float: center;
+    text-align:center;
+  }
+  .le{
+      margin-left: 160px;
+      display: inline-block;
+      text-align: right;
+      font-family: sans-serif;
+      color: rgb(75, 74, 74);
+  }
+  .ce{
+    margin-left: 20px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(75, 74, 74);
+  }
+  .ri{
+     margin-right: 50px;
+     display: inline-block;
+     text-align: left;
+     font-family: sans-serif;
+     color: rgb(75, 74, 74);
+  }
+  .right{
+      margin-top: 50px;
+      float: center;
+      text-align: center;
+      font-size: 7px;
+      font-family: sans-serif;
+      color: rgb(131, 126, 126)
+  }
+  #A{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid rgb(68, 68, 68);
+  }
+  #B{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 0.5px solid rgb(68, 68, 68);
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid rgb(68, 68, 68);
+    font-weight: 1000;
+  }
+  
+  .navbar a {
+    color: rgb(100, 100, 100);
+    padding-right: 50px;
+    padding-left:50px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .navbar a:hover {
+    background-color:rgb(255, 97, 97);
+    color: rgb(43, 41, 41);
+  }
+
+  @media (max-width: 700px) {
+    .container {
+      padding: 8px;
+    }
+    .container {
+      flex: 0 1;
+    }
+  }
+@media screen and (max-width: 700px) {
+    .navbar,
+    .container,
+    .wrapper,
+    body {
+      flex-direction: column;
+      background-color: rgb(158, 243, 229);
+    }
+  }
+  
